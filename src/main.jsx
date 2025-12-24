@@ -6,7 +6,9 @@ import './index.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
+   <BrowserRouter basename="/finance_tracker">
  <Provider store={store}>
     <App />
  </Provider>
+ </BrowserRouter>
 )
