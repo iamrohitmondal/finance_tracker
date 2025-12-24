@@ -1,16 +1,34 @@
-# React + Vite
+# 💰 Smart Finance Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance personal finance dashboard built with **React** and **Redux Toolkit**. This project demonstrates enterprise-level state management, data persistence, and responsive UI design.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🛠️ Tech Stack
+* **Frontend:** React (Vite)
+* **State Management:** Redux Toolkit (Slices & Memoized Selectors)
+* **Styling:** Tailwind CSS (Mobile-first design)
+* **Icons:** Lucide-React
+* **Data Persistence:** Web Storage API (LocalStorage)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
+* **Dual-Stream Tracking:** Separate, dedicated modules for Income and Expense management.
+* **Live Analytics:** Real-time calculation of Total Balance and Cash Flow using memoized selectors.
+* **Full CRUD Operations:** Capability to Add, Read, Update, and Delete transactions with instant UI synchronization.
+* **Data Persistence:** Integrated middleware logic to persist state across browser sessions via `localStorage`.
+* **Smart Validation:** Built-in business logic to prevent expenses from exceeding the available balance.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🏗️ Architectural Highlights
+* **Performance:** Implemented **Memoization** using `createSelector` to optimize re-renders and computation.
+* **Clean Code:** Follows **DRY** (Don't Repeat Yourself) principles with reusable presentational components like `TransactionRow`.
+* **Defensive Design:** Employs Optional Chaining and Nullish Coalescing to handle stale data and schema migrations safely.
+
+
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/iamrohitmondal/finance_tracker.git](https://github.com/iamrohitmondal/finance_tracker.git)
