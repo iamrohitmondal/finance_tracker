@@ -29,6 +29,6 @@ A high-performance personal finance dashboard built with **React** and **Redux T
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**
+1. **Live at**
    ```bash
-   git clone [https://github.com/iamrohitmondal/finance_tracker.git](https://github.com/iamrohitmondal/finance_tracker.git)
+   https://tmorderweb.web.app/
